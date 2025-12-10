@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}" SchemaVersion="123" RootDocumentID="{8136DA88-2189-4BF4-8146-B2328B62E270}" ParentDocumentID="{8136DA88-2189-4BF4-8146-B2328B62E270}">
+	<AudioObjects>
+		<WorkUnit Name="Player_FootSteps" ID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}" OwnerID="{8136DA88-2189-4BF4-8146-B2328B62E270}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchContainer Name="Player_FootSteps" ID="{7D9E89F5-F301-4C57-AF75-DD59AA1C8B0F}" ShortID="39497374">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{86A58B9A-3FE3-472C-880E-AEED307691A9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Metal" ID="{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}" WorkUnitID="{99034CB4-A472-4884-8F5D-5E5B96D33807}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="GroundMaterial" ID="{0F4BE55D-6A6A-4DF3-BBC2-2C97C57F9006}" WorkUnitID="{99034CB4-A472-4884-8F5D-5E5B96D33807}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="FootSteps_Metal" ID="{B5A5A7D9-4527-4030-B71D-67E05CE35630}" ShortID="369056169">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Left" ID="{B8CEA64B-CE22-461B-8F83-DD480212024C}" ShortID="860181235">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootStep_Robot_Metal (3)" ID="{FB5ACAF6-0C71-44C9-9B81-51D11B039FCA}" ShortID="279333401">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Metal (3)" ID="{598D9552-47B0-470F-A2B1-4D0E4F3D9356}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Metal\FootStep_Robot_Metal (3).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="988228241"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Metal (3)" ID="{598D9552-47B0-470F-A2B1-4D0E4F3D9356}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootStep_Robot_Metal (1)" ID="{BE6B0C47-FAF4-4323-8D0E-FC7AF7EA73CC}" ShortID="133203126">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Metal (1)" ID="{5862A622-14C5-44E1-8F23-C9440499D702}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Metal\FootStep_Robot_Metal (1).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="100340915"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Metal (1)" ID="{5862A622-14C5-44E1-8F23-C9440499D702}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{2265D9E6-0110-4E60-B6E8-5D05158621EF}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Right" ID="{EED33F9B-99CF-4C64-8E95-EC21762656E2}" ShortID="597758849">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootStep_Robot_Metal (4)" ID="{7D98A607-1446-47A9-BC03-091611788EDF}" ShortID="864495128">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Metal (4)" ID="{008FEA02-7CE5-466B-A7EC-2104008D7343}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Metal\FootStep_Robot_Metal (4).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1026849881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Metal (4)" ID="{008FEA02-7CE5-466B-A7EC-2104008D7343}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootStep_Robot_Metal (2)" ID="{54BCC392-8B9F-4A68-AD2C-0DF1A9742D57}" ShortID="798367531">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Metal (2)" ID="{00F2444C-8FE1-4C96-9072-09CE9D4710DB}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Metal\FootStep_Robot_Metal (2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="356402377"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Metal (2)" ID="{00F2444C-8FE1-4C96-9072-09CE9D4710DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{0D34DE99-6791-4B39-B6C7-4F18781C72B9}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Left" ID="{B8CEA64B-CE22-461B-8F83-DD480212024C}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Right" ID="{EED33F9B-99CF-4C64-8E95-EC21762656E2}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{DF459990-C743-45AA-B97E-E6F2A7836ADA}" ShortID="939022475">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_PlayerSpeed" ID="{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}" WorkUnitID="{58403E88-2D17-4F01-B6FC-CF2017656679}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{A8D20C1A-2B7E-4574-B14F-D84977DE526D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>300</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FootSteps_Stairs" ID="{2D7B1E71-5E6F-46BA-B090-075E0E0FDFFF}" ShortID="49718542">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Left" ID="{01DF6D4B-8FA9-44C8-A32F-A8712FBDB552}" ShortID="532012434">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootStep_Robot_Stairs (1)" ID="{B5C78118-7250-41DD-AB8C-BB61FE48F2B6}" ShortID="819788882">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Stairs (1)" ID="{CBC25B86-C6B4-45CC-95A6-8FBEC8D2F7BD}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Stairs\FootStep_Robot_Stairs (1).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1067557425"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Stairs (1)" ID="{CBC25B86-C6B4-45CC-95A6-8FBEC8D2F7BD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootStep_Robot_Stairs (3)" ID="{AB7A6016-9379-49FD-B590-C3FAC5A1C3F6}" ShortID="1009384042">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Stairs (3)" ID="{10222774-B811-416C-B9CF-3B36BA93785C}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Stairs\FootStep_Robot_Stairs (3).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="304515337"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Stairs (3)" ID="{10222774-B811-416C-B9CF-3B36BA93785C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{E11FA785-3FAA-4429-9252-19B5BE5069D2}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Right" ID="{3EF03BFE-8CBD-41DD-AF86-20738309BE6E}" ShortID="770552648">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootStep_Robot_Stairs (4)" ID="{86C6B239-89FA-490D-8695-4912A057B112}" ShortID="269903519">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Stairs (4)" ID="{62F0BB1D-FF7A-4FA7-A350-07BAD7527832}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Stairs\FootStep_Robot_Stairs (4).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="99311362"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Stairs (4)" ID="{62F0BB1D-FF7A-4FA7-A350-07BAD7527832}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootStep_Robot_Stairs (2)" ID="{3FAC2D63-FF67-4D83-A1B1-9434A0F408EB}" ShortID="172683191">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootStep_Robot_Stairs (2)" ID="{20445D43-9075-4FD5-83A7-906BAFC83778}">
+													<Language>SFX</Language>
+													<AudioFile>FootStep_Robot_Stairs\FootStep_Robot_Stairs (2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="929044248"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootStep_Robot_Stairs (2)" ID="{20445D43-9075-4FD5-83A7-906BAFC83778}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{76D70D71-EC97-4DA9-8FD8-2810267FBA0F}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Left" ID="{01DF6D4B-8FA9-44C8-A32F-A8712FBDB552}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Right" ID="{3EF03BFE-8CBD-41DD-AF86-20738309BE6E}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{6A86E348-4147-4B4B-AD53-56A80D7C3800}" ShortID="798077131">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_PlayerSpeed" ID="{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}" WorkUnitID="{58403E88-2D17-4F01-B6FC-CF2017656679}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{87059286-5F1E-437F-9C16-A76B69F11F1B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FootSteps_Robot" ID="{1A9FCE7F-9655-4B2A-B742-991616ADD35D}" ShortID="487501372">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.05"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Left" ID="{6B5E64AB-3602-4CAC-8DE0-18C61C393283}" ShortID="168216735">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootSteps_Robot_1-16bit" ID="{01E68847-5E92-4AD7-BC62-1FF756B9711C}" ShortID="535155851">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootSteps_Robot_1-16bit" ID="{3A0623F2-371A-44A9-BE25-3A560A9701BE}">
+													<Language>SFX</Language>
+													<AudioFile>FootSteps_Robot\FootSteps_Robot_1-16bit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="16167439"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootSteps_Robot_1-16bit" ID="{3A0623F2-371A-44A9-BE25-3A560A9701BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootSteps_Robot_3-16bit" ID="{8B9C5D22-513A-4CC1-8FE5-00DB18D790FE}" ShortID="185450638">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootSteps_Robot_3-16bit" ID="{8196B93B-4913-42F2-95AF-7559AF9CA872}">
+													<Language>SFX</Language>
+													<AudioFile>FootSteps_Robot\FootSteps_Robot_3-16bit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="467704966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootSteps_Robot_3-16bit" ID="{8196B93B-4913-42F2-95AF-7559AF9CA872}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{65D97E46-6BE6-485C-92B2-FFD38469728D}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Right" ID="{EA1557FE-43FC-4670-BFCA-FD2163F523B3}" ShortID="26125799">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FootSteps_Robot_4-16bit" ID="{85435293-B5E4-41A7-A5FB-36BAEBBBDCA8}" ShortID="310078766">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootSteps_Robot_4-16bit" ID="{91F35343-8481-4740-8F77-CA9ED64C399C}">
+													<Language>SFX</Language>
+													<AudioFile>FootSteps_Robot\FootSteps_Robot_4-16bit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="285937926"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootSteps_Robot_4-16bit" ID="{91F35343-8481-4740-8F77-CA9ED64C399C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FootSteps_Robot_2-16bit" ID="{31217800-1560-4B8C-AB98-BD0D2ADD8A7D}" ShortID="134980775">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{91139DAE-A70C-41EE-A0F3-FC917869AEF3}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}" WorkUnitID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FootSteps_Robot_2-16bit" ID="{6561B51C-FE58-4232-84F7-76F457D79FD0}">
+													<Language>SFX</Language>
+													<AudioFile>FootSteps_Robot\FootSteps_Robot_2-16bit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="428396697"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FootSteps_Robot_2-16bit" ID="{6561B51C-FE58-4232-84F7-76F457D79FD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{8F064B54-0A2E-44E4-9414-2944B197E063}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="50"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Left" ID="{6B5E64AB-3602-4CAC-8DE0-18C61C393283}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Right" ID="{EA1557FE-43FC-4670-BFCA-FD2163F523B3}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5C10E308-E6F1-4FEE-BD50-F83C14460366}" ShortID="123225326">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RTPC_PlayerSpeed" ID="{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}" WorkUnitID="{58403E88-2D17-4F01-B6FC-CF2017656679}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{447CD752-3A00-4F6A-A266-1704F7BADBA1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>300</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Room" ID="{91EDCE73-1A8C-4F17-8E15-3563ACC4FC38}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"/>
+								<CustomState Name="" ID="{B63A823C-FC15-439B-8F36-334C17674E5C}" ShortID="85704635"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="WaitRoom" ID="{BAB5A8A8-C352-468A-A09D-ABA581387A85}"/>
+								<CustomState Name="" ID="{016FAA0A-BD46-441C-9DAC-A6388FE18877}" ShortID="1026809380"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Corridor" ID="{C43CB200-DB42-4880-931C-9321578F7019}"/>
+								<CustomState Name="" ID="{A6779648-B26C-49E7-9FEB-31459A107EE7}" ShortID="350996567">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="FootSteps_Stairs" ID="{2D7B1E71-5E6F-46BA-B090-075E0E0FDFFF}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FootSteps_Robot" ID="{1A9FCE7F-9655-4B2A-B742-991616ADD35D}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="FootSteps_Metal" ID="{B5A5A7D9-4527-4030-B71D-67E05CE35630}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="NoneMaterial" ID="{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}"/>
+								<ItemList>
+									<ItemRef Name="FootSteps_Robot" ID="{1A9FCE7F-9655-4B2A-B742-991616ADD35D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Metal" ID="{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}"/>
+								<ItemList>
+									<ItemRef Name="FootSteps_Metal" ID="{B5A5A7D9-4527-4030-B71D-67E05CE35630}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stairs" ID="{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}"/>
+								<ItemList>
+									<ItemRef Name="FootSteps_Stairs" ID="{2D7B1E71-5E6F-46BA-B090-075E0E0FDFFF}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

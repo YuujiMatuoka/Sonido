@@ -1,0 +1,63 @@
+Event	ID	Name			Wwise Object Path	Notes
+	639345804	Play_Engine			\Default Work Unit\Play_Engine	
+	1562304622	Play_Ambient			\Default Work Unit\Play_Ambient	
+	1866025847	FootStep			\Default Work Unit\FootStep	
+	2398522065	Play_TimeTravel			\Default Work Unit\Play_TimeTravel	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3072116243	GroundMaterial			\Default Work Unit\GroundMaterial	
+
+Switch	ID	Name	Switch Group			Notes
+	1289942167	Stairs	GroundMaterial			
+	2213076644	NoneMaterial	GroundMaterial			
+	2473969246	Metal	GroundMaterial			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2077253480	Room			\Default Work Unit\Room	
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Room			
+	2462589023	WaitRoom	Room			
+	4063189299	Corridor	Room			
+	748895195	None	Music_State			
+	1702304824	L1	Music_State			
+	2857991423	Origen	Music_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	118135355	WaitRoom	Room	\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Engine		
+	302127727	Corridor	Room	\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Engine		
+	350996567	Corridor	Room	\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1181339778	EngineIntencity			\Default Work Unit\EngineIntencity	
+	1223843609	FanDistance			\Default Work Unit\FanDistance	
+	2653406601	RTPC_PlayerSpeed			\Default Work Unit\RTPC_PlayerSpeed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16167439	FootSteps_Robot_1-16bit	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootSteps_Robot\FootSteps_Robot_1-16bit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Robot\Left\FootSteps_Robot_1-16bit		144064
+	99311362	FootStep_Robot_Stairs (4)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (4)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Stairs\Right\FootStep_Robot_Stairs (4)		121204
+	100340915	FootStep_Robot_Metal (1)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Metal\Left\FootStep_Robot_Metal (1)		112312
+	171937269	Pesado	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Pesado_918725BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Engine\Pesado		22028664
+	177187555	Drums	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music_Loops\Origen\Drums\Drums		577600
+	273318906	SpaceShip_Ambient	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\SpaceShip_Ambient_B34CD4AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Ambient\SpaceShip_Ambient		4036736
+	285937926	FootSteps_Robot_4-16bit	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootSteps_Robot\FootSteps_Robot_4-16bit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Robot\Right\FootSteps_Robot_4-16bit		144064
+	292366816	Melody	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Melody_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music_Loops\Origen\Drums\Melody		581696
+	304515337	FootStep_Robot_Stairs (3)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Stairs\Left\FootStep_Robot_Stairs (3)		96064
+	348857675	1	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\looperman-l-0911223-0101489-silencekills-slow-volcano-pad-80-a_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music_Loops\L1\Music_Base\1		4233728
+	356402377	FootStep_Robot_Metal (2)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Metal\Right\FootStep_Robot_Metal (2)		96064
+	415893338	MetalCrunch_3	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\MetalCrunch_B56FE934.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Ambient\MetalCrunch\MetalCrunch_3		716068
+	428396697	FootSteps_Robot_2-16bit	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootSteps_Robot\FootSteps_Robot_2-16bit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Robot\Right\FootSteps_Robot_2-16bit		96064
+	461448503	Inicio	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Inicio_B8755F50.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Engine\Inicio		1681824
+	467704966	FootSteps_Robot_3-16bit	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootSteps_Robot\FootSteps_Robot_3-16bit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Robot\Left\FootSteps_Robot_3-16bit		96064
+	543921958	Fan	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Fan_005C5FDD.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Ambient\Fan		10837452
+	596497210	MetalCrunch_2	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\MetalCrunch_1EC7602A.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Ambient\MetalCrunch\MetalCrunch_2		682508
+	713128896	1	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\looperman-l-2909146-0268447-joji-x-test-drive-piano-chords-e-80bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music_Loops\L1\Music_Melody\1		2116928
+	733929263	3	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\looperman-l-2234076-0126307-prodivn-teenage_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Music_Loops\L1\TransistionToL1\3		2116928
+	798199537	Base2	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\Base2_10569121.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Engine\Base2		15342616
+	829583836	MetalCrunch_1	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\MetalCrunch_3D7D6839.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSound\Ambient\MetalCrunch\MetalCrunch_1		671320
+	929044248	FootStep_Robot_Stairs (2)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (2)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Stairs\Right\FootStep_Robot_Stairs (2)		96064
+	988228241	FootStep_Robot_Metal (3)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (3)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Metal\Left\FootStep_Robot_Metal (3)		96064
+	1026849881	FootStep_Robot_Metal (4)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (4)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Metal\Right\FootStep_Robot_Metal (4)		119884
+	1067557425	FootStep_Robot_Stairs (1)	C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player_FootSteps\Player_FootSteps\FootSteps_Stairs\Left\FootStep_Robot_Stairs (1)		96064
+

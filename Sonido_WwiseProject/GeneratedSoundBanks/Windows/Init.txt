@@ -1,0 +1,58 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	PlayerSpeed			
+	2108779966	Walk	PlayerSpeed			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2077253480	Room			\Default Work Unit\Room	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Room			
+	2462589023	WaitRoom	Room			
+	4063189299	Corridor	Room			
+	712161704	Run	PlayerState			
+	748895195	None	PlayerState			
+	2108779966	Walk	PlayerState			
+	748895195	None	Music_State			
+	1702304824	L1	Music_State			
+	2857991423	Origen	Music_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	771922919	Corridor	Room	\Master-Mixer Hierarchy\Default Work Unit\CorridorEffect\Reverb		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1655751232	CorridorEffect			\Default Work Unit\CorridorEffect	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\CorridorEffect\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+	4230635974	Default_Motion_Device	Wwise Motion			
+

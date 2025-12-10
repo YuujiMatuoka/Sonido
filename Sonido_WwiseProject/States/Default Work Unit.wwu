@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C90AB64F-5E64-4B20-82FE-6D2EDEA8B0BA}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{42F0B2F3-48A7-4B17-9105-AD5A7AE6A9E1}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{C90AB64F-5E64-4B20-82FE-6D2EDEA8B0BA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{42F0B2F3-48A7-4B17-9105-AD5A7AE6A9E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerState" ID="{F88746D9-E9EE-4C34-AC72-F8F9BB77724E}">
+					<ChildrenList>
+						<State Name="None" ID="{19E67650-8BF4-4E76-9EFE-0A7D90621792}"/>
+						<State Name="Walk" ID="{191E1D01-49D4-4BEB-92B1-828D0F47984E}"/>
+						<State Name="Run" ID="{7B8EC9C4-3FC6-4053-8994-4A87B3352FA8}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Room" ID="{91EDCE73-1A8C-4F17-8E15-3563ACC4FC38}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"/>
+						<State Name="Corridor" ID="{C43CB200-DB42-4880-931C-9321578F7019}"/>
+						<State Name="WaitRoom" ID="{BAB5A8A8-C352-468A-A09D-ABA581387A85}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Music_State" ID="{90A4C465-8742-4F24-9973-CE3C54854207}">
+					<ChildrenList>
+						<State Name="None" ID="{E8A788DF-0ACE-4653-BC9F-780DD4A276A4}"/>
+						<State Name="L1" ID="{709EFD18-42DA-4329-A325-315D2ADD00C1}"/>
+						<State Name="Origen" ID="{1844E7BB-F2BB-4477-855E-F137E07A3B10}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

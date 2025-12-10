@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6FD87A12-CEEF-496F-949B-454A6023329D}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{8136DA88-2189-4BF4-8146-B2328B62E270}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{6FD87A12-CEEF-496F-949B-454A6023329D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8136DA88-2189-4BF4-8146-B2328B62E270}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="AmbientSound" ID="{DBCB533B-5924-4189-8755-391170064938}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_FootSteps" ID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

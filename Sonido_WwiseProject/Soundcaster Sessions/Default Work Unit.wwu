@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{6FD4719C-3956-4801-821F-A2C26E1517B3}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{0D99A6BF-8ED8-444A-B961-694B44C99316}" SchemaVersion="123">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{6FD4719C-3956-4801-821F-A2C26E1517B3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0D99A6BF-8ED8-444A-B961-694B44C99316}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SoundMixer" ID="{AAFED0C2-7951-41BF-B289-9FE12DBE6CAC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="FootStep" ID="{79F941EE-4778-442A-8B3C-7D025CAEBC44}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_TimeTravel" ID="{46F192F8-BADD-454D-B852-08FDA87B60C0}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Engine" ID="{A0EA6BD8-72B0-4E8A-BB74-31A7F5E0EDB6}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambient" ID="{6F36AB94-F933-4B42-B025-E5BD6EF52337}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

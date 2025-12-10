@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Yuuji\Desktop\2C - 2025 - Sonido y musica para videojuegos\Long_Matuoka_Yakimchuk\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="704850686">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\CorridorEffect\Reverb"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="2077253480" Name="Room" ObjectPath="\States\Default Work Unit\Room" GUID="{91EDCE73-1A8C-4F17-8E15-3563ACC4FC38}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Room\None" GUID="{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"/>
+						<State Id="4063189299" Name="Corridor" ObjectPath="\States\Default Work Unit\Room\Corridor" GUID="{C43CB200-DB42-4880-931C-9321578F7019}"/>
+						<State Id="2462589023" Name="WaitRoom" ObjectPath="\States\Default Work Unit\Room\WaitRoom" GUID="{BAB5A8A8-C352-468A-A09D-ABA581387A85}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1923739936">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1866025847" Name="FootStep" ObjectPath="\Events\Default Work Unit\FootStep">
+					<IncludedMemoryFiles>
+						<File Id="16167439" Language="SFX">
+							<ShortName>FootSteps_Robot\FootSteps_Robot_1-16bit.wav</ShortName>
+							<Path>SFX\FootSteps_Robot\FootSteps_Robot_1-16bit_10C4C929.wem</Path>
+						</File>
+						<File Id="99311362" Language="SFX">
+							<ShortName>FootStep_Robot_Stairs\FootStep_Robot_Stairs (4).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (4)_10C4C929.wem</Path>
+						</File>
+						<File Id="100340915" Language="SFX">
+							<ShortName>FootStep_Robot_Metal\FootStep_Robot_Metal (1).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (1)_10C4C929.wem</Path>
+						</File>
+						<File Id="285937926" Language="SFX">
+							<ShortName>FootSteps_Robot\FootSteps_Robot_4-16bit.wav</ShortName>
+							<Path>SFX\FootSteps_Robot\FootSteps_Robot_4-16bit_10C4C929.wem</Path>
+						</File>
+						<File Id="304515337" Language="SFX">
+							<ShortName>FootStep_Robot_Stairs\FootStep_Robot_Stairs (3).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (3)_10C4C929.wem</Path>
+						</File>
+						<File Id="356402377" Language="SFX">
+							<ShortName>FootStep_Robot_Metal\FootStep_Robot_Metal (2).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (2)_10C4C929.wem</Path>
+						</File>
+						<File Id="428396697" Language="SFX">
+							<ShortName>FootSteps_Robot\FootSteps_Robot_2-16bit.wav</ShortName>
+							<Path>SFX\FootSteps_Robot\FootSteps_Robot_2-16bit_10C4C929.wem</Path>
+						</File>
+						<File Id="467704966" Language="SFX">
+							<ShortName>FootSteps_Robot\FootSteps_Robot_3-16bit.wav</ShortName>
+							<Path>SFX\FootSteps_Robot\FootSteps_Robot_3-16bit_10C4C929.wem</Path>
+						</File>
+						<File Id="929044248" Language="SFX">
+							<ShortName>FootStep_Robot_Stairs\FootStep_Robot_Stairs (2).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (2)_10C4C929.wem</Path>
+						</File>
+						<File Id="988228241" Language="SFX">
+							<ShortName>FootStep_Robot_Metal\FootStep_Robot_Metal (3).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (3)_10C4C929.wem</Path>
+						</File>
+						<File Id="1026849881" Language="SFX">
+							<ShortName>FootStep_Robot_Metal\FootStep_Robot_Metal (4).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Metal\FootStep_Robot_Metal (4)_10C4C929.wem</Path>
+						</File>
+						<File Id="1067557425" Language="SFX">
+							<ShortName>FootStep_Robot_Stairs\FootStep_Robot_Stairs (1).wav</ShortName>
+							<Path>SFX\FootStep_Robot_Stairs\FootStep_Robot_Stairs (1)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}">
+							<Media>
+								<File Id="16167439"/>
+								<File Id="285937926"/>
+								<File Id="428396697"/>
+								<File Id="467704966"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}">
+							<Media>
+								<File Id="100340915"/>
+								<File Id="356402377"/>
+								<File Id="988228241"/>
+								<File Id="1026849881"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}">
+							<Media>
+								<File Id="99311362"/>
+								<File Id="304515337"/>
+								<File Id="929044248"/>
+								<File Id="1067557425"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\CorridorEffect\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1562304622" Name="Play_Ambient" ObjectPath="\Events\Default Work Unit\Play_Ambient">
+					<IncludedMemoryFiles>
+						<File Id="273318906" Language="SFX">
+							<ShortName>SpaceShip_Ambient.wav</ShortName>
+							<Path>SFX\SpaceShip_Ambient_B34CD4AE.wem</Path>
+						</File>
+						<File Id="415893338" Language="SFX">
+							<ShortName>MetalCrunch.wav</ShortName>
+							<Path>SFX\MetalCrunch_B56FE934.wem</Path>
+						</File>
+						<File Id="543921958" Language="SFX">
+							<ShortName>Fan.wav</ShortName>
+							<Path>SFX\Fan_005C5FDD.wem</Path>
+						</File>
+						<File Id="596497210" Language="SFX">
+							<ShortName>MetalCrunch.wav</ShortName>
+							<Path>SFX\MetalCrunch_1EC7602A.wem</Path>
+						</File>
+						<File Id="829583836" Language="SFX">
+							<ShortName>MetalCrunch.wav</ShortName>
+							<Path>SFX\MetalCrunch_3D7D6839.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\CorridorEffect\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="639345804" Name="Play_Engine" ObjectPath="\Events\Default Work Unit\Play_Engine">
+					<IncludedMemoryFiles>
+						<File Id="171937269" Language="SFX">
+							<ShortName>Pesado.wav</ShortName>
+							<Path>SFX\Pesado_918725BA.wem</Path>
+						</File>
+						<File Id="461448503" Language="SFX">
+							<ShortName>Inicio.wav</ShortName>
+							<Path>SFX\Inicio_B8755F50.wem</Path>
+						</File>
+						<File Id="798199537" Language="SFX">
+							<ShortName>Base2.wav</ShortName>
+							<Path>SFX\Base2_10569121.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2398522065" Name="Play_TimeTravel" ObjectPath="\Events\Default Work Unit\Play_TimeTravel">
+					<IncludedMemoryFiles>
+						<File Id="177187555" Language="SFX">
+							<ShortName>Drums.wav</ShortName>
+							<Path>SFX\Drums_D79FB2B7.wem</Path>
+						</File>
+						<File Id="292366816" Language="SFX">
+							<ShortName>Melody.wav</ShortName>
+							<Path>SFX\Melody_D79FB2B7.wem</Path>
+						</File>
+						<File Id="348857675" Language="SFX">
+							<ShortName>looperman-l-0911223-0101489-silencekills-slow-volcano-pad-80-a.wav</ShortName>
+							<Path>SFX\looperman-l-0911223-0101489-silencekills-slow-volcano-pad-80-a_D79FB2B7.wem</Path>
+						</File>
+						<File Id="713128896" Language="SFX">
+							<ShortName>looperman-l-2909146-0268447-joji-x-test-drive-piano-chords-e-80bpm.wav</ShortName>
+							<Path>SFX\looperman-l-2909146-0268447-joji-x-test-drive-piano-chords-e-80bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="733929263" Language="SFX">
+							<ShortName>looperman-l-2234076-0126307-prodivn-teenage.wav</ShortName>
+							<Path>SFX\looperman-l-2234076-0126307-prodivn-teenage_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{709EFD18-42DA-4329-A325-315D2ADD00C1}">
+							<Media>
+								<File Id="348857675"/>
+								<File Id="713128896"/>
+								<File Id="733929263"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1844E7BB-F2BB-4477-855E-F137E07A3B10}">
+							<Media>
+								<File Id="177187555"/>
+								<File Id="292366816"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1181339778" Name="EngineIntencity" ObjectPath="\Game Parameters\Default Work Unit\EngineIntencity"/>
+				<GameParameter Id="1223843609" Name="FanDistance" ObjectPath="\Game Parameters\Default Work Unit\FanDistance"/>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerSpeed"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3826569560" Name="Music_State" ObjectPath="\States\Default Work Unit\Music_State" GUID="{90A4C465-8742-4F24-9973-CE3C54854207}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State\None" GUID="{E8A788DF-0ACE-4653-BC9F-780DD4A276A4}"/>
+						<State Id="1702304824" Name="L1" ObjectPath="\States\Default Work Unit\Music_State\L1" GUID="{709EFD18-42DA-4329-A325-315D2ADD00C1}"/>
+						<State Id="2857991423" Name="Origen" ObjectPath="\States\Default Work Unit\Music_State\Origen" GUID="{1844E7BB-F2BB-4477-855E-F137E07A3B10}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3072116243" Name="GroundMaterial" ObjectPath="\Switches\Default Work Unit\GroundMaterial" GUID="{0F4BE55D-6A6A-4DF3-BBC2-2C97C57F9006}">
+					<Switches>
+						<Switch Id="2213076644" Name="NoneMaterial" ObjectPath="\Switches\Default Work Unit\GroundMaterial\NoneMaterial" GUID="{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\GroundMaterial\Metal" GUID="{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}"/>
+						<Switch Id="1289942167" Name="Stairs" ObjectPath="\Switches\Default Work Unit\GroundMaterial\Stairs" GUID="{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

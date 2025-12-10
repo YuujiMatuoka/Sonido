@@ -14,15 +14,11 @@
 						<ObjectList Name="Effects">
 							<Reference>
 								<Local>
-									<EffectSlot Name="" ID="{314440AB-D01A-4843-AB1C-87207533CCC2}">
+									<EffectSlot Name="" ID="{76389CAD-3A25-457D-9322-D9B46E7D02EE}">
 										<ReferenceList>
 											<Reference Name="Effect">
 												<Custom>
-													<Effect Name="Wwise_RoomVerb_(Custom)" ID="{4AF92620-9CD6-4410-BD1D-ADEF5D6FE936}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-														<PropertyList>
-															<Property Name="DryLevel" Type="Real32" Value="-96.3"/>
-														</PropertyList>
-													</Effect>
+													<Effect Name="Wwise_RoomVerb_(Custom)" ID="{4AF92620-9CD6-4410-BD1D-ADEF5D6FE936}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
 												</Custom>
 											</Reference>
 										</ReferenceList>

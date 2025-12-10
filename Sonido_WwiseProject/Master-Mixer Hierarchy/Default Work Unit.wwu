@@ -1,14 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E7B20A7B-0F3B-4FC7-965A-DE651B81250D}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}" SchemaVersion="123">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{E7B20A7B-0F3B-4FC7-965A-DE651B81250D}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{1007335C-1CB8-4EA6-96A0-F3FA8457899E}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
-							<ObjectRef Name="System" ID="{1F4F11E3-8903-40E5-B766-FDD04B8DA4E5}" WorkUnitID="{CB6DB05D-72A9-4AF7-A41F-DF6B8DBD3B32}"/>
+							<ObjectRef Name="System" ID="{2B3F42DF-D7BC-45D4-95BC-64B7E9CF6B61}" WorkUnitID="{D8662246-0F8D-487F-899D-6CBA0A540347}"/>
 						</Reference>
 					</ReferenceList>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" CompanyID="0" PluginID="507" PluginType="7">
+							<ObjectRef Name="Default_Motion_Device" ID="{4830B8A8-CCA9-4B5E-B7A9-24A97B74B28C}" WorkUnitID="{D8662246-0F8D-487F-899D-6CBA0A540347}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="CorridorEffect" ID="{0F17341C-5AD1-4157-9810-A142AA4C7B95}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{2B3F42DF-D7BC-45D4-95BC-64B7E9CF6B61}" WorkUnitID="{D8662246-0F8D-487F-899D-6CBA0A540347}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reverb" ID="{64F2CB42-BFDE-4975-B759-CB899183A181}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Room" ID="{91EDCE73-1A8C-4F17-8E15-3563ACC4FC38}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"/>
+										<CustomState Name="" ID="{6AB2A92E-89E9-4075-9B4A-019675059A40}" ShortID="896543514"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="WaitRoom" ID="{BAB5A8A8-C352-468A-A09D-ABA581387A85}"/>
+										<CustomState Name="" ID="{9E273F56-4411-4708-AD7E-A013A098F328}" ShortID="637340038"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Corridor" ID="{C43CB200-DB42-4880-931C-9321578F7019}"/>
+										<CustomState Name="" ID="{17B54BEC-EF23-474D-A15F-33F3C35908EB}" ShortID="771922919">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="5"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{70FF5554-26D6-4347-A9BE-EB293B95C9D4}" ShortID="438376182">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="None" ID="{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"/>
+															<CustomState Name="" ID="{0B1738B8-DDB6-4C9D-9A9B-59B260135EB0}" ShortID="538809238"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="WaitRoom" ID="{BAB5A8A8-C352-468A-A09D-ABA581387A85}"/>
+															<CustomState Name="" ID="{6D133579-DCE9-4786-A1FC-EE5EA9F20A4F}" ShortID="660582433"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Corridor" ID="{C43CB200-DB42-4880-931C-9321578F7019}"/>
+															<CustomState Name="" ID="{EB4A7AA7-CB95-4282-8074-A3871776574F}" ShortID="149877520"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

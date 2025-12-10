@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{71777A58-B527-4C09-A6D1-33EC9558E1E1}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{99034CB4-A472-4884-8F5D-5E5B96D33807}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{71777A58-B527-4C09-A6D1-33EC9558E1E1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{99034CB4-A472-4884-8F5D-5E5B96D33807}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="PlayerSpeed" ID="{00CE5042-D815-4BB1-A7BE-2A492712F64A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Walk" ID="{0EECBB87-18CA-46C2-B210-645EF1EA1B4F}"/>
+						<Switch Name="Run" ID="{FCC7349F-2D04-4B7F-8AC3-46572DBDEC9E}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RTPC_PlayerSpeed" ID="{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}"/>
+						<Curve Name="" ID="{27103A46-B0E6-4C49-803F-27D3A17FF219}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>25</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>25.1</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>50</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="GroundMaterial" ID="{0F4BE55D-6A6A-4DF3-BBC2-2C97C57F9006}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="NoneMaterial" ID="{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}"/>
+						<Switch Name="Metal" ID="{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}"/>
+						<Switch Name="Stairs" ID="{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4BFF06E3-3D31-45F6-B452-20A22145BB7B}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{4BFF06E3-3D31-45F6-B452-20A22145BB7B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="FootStep" ID="{79F941EE-4778-442A-8B3C-7D025CAEBC44}">
+					<ChildrenList>
+						<Action Name="" ID="{CBC547C7-999E-421D-967C-BB8395E1C528}" ShortID="446284393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_FootSteps" ID="{7D9E89F5-F301-4C57-AF75-DD59AA1C8B0F}" WorkUnitID="{39DCB6DB-57C1-4C92-A670-B3863D4700F0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Engine" ID="{A0EA6BD8-72B0-4E8A-BB74-31A7F5E0EDB6}">
+					<ChildrenList>
+						<Action Name="" ID="{54131DD5-04F2-4DBD-9B3E-E8E2CE672C43}" ShortID="853302702">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{B4FD67FF-9261-4966-B776-CC4D63B6AA2A}" WorkUnitID="{DBCB533B-5924-4189-8755-391170064938}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambient" ID="{6F36AB94-F933-4B42-B025-E5BD6EF52337}">
+					<ChildrenList>
+						<Action Name="" ID="{BD86A350-877C-4F8D-AA36-E0533A5936C1}" ShortID="30415742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient" ID="{F625164E-2669-4FA5-A10D-07CD0A8DF3B6}" WorkUnitID="{DBCB533B-5924-4189-8755-391170064938}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TimeTravel" ID="{46F192F8-BADD-454D-B852-08FDA87B60C0}">
+					<ChildrenList>
+						<Action Name="" ID="{EC87FBD6-0282-4C38-B0AE-9B507F577F66}" ShortID="647578235">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Loops" ID="{ADDE3AAC-B675-46A5-8831-5F8D78A52A6A}" WorkUnitID="{5CC5728C-1DE0-4271-A21D-40BEA00B652D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

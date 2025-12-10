@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BB032E54-00ED-4814-AB55-F1DFF83EF3A9}" SchemaVersion="123">
+<WwiseDocument Type="WorkUnit" ID="{58403E88-2D17-4F01-B6FC-CF2017656679}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{BB032E54-00ED-4814-AB55-F1DFF83EF3A9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{58403E88-2D17-4F01-B6FC-CF2017656679}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_PlayerSpeed" ID="{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="25"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="EngineIntencity" ID="{DA70F56D-34EB-431F-8E6E-D8741376A883}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="FanDistance" ID="{CF9605A7-2192-4CE6-8EA6-8957C8C3197F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
