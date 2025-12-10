@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3de1c5f0399a6042aeab70ef8e9d45c, type: 3}
+  m_Name: Prueba 3
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - dialogueText: "I woke you up, android. I know this is very sudden, but the ship
+      is in danger, and we need to move. I'll tell you everything later. Right now,
+      you're trapped because the console is broken. But I modified the teleportation
+      portal to travel through time\u2014use it."
+    displayDuration: 21
+    voiceClip: {fileID: 8300000, guid: 4b8f8aee19c095b4c9fb8ff644c51f0c, type: 3}

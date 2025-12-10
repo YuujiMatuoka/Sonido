@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Shield
+  - Panel
+  - RobotPart
+  - mapTileL1
+  - mapTileOrigen
+  - TimeAffected
+  - Object
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - interactableLayer
+  - breakableLayer
+  - PopUpUI
+  - Props
+  - NoCollsions
+  - Walls
+  - Doors
+  - Robot
+  - Ground
+  - Hands
+  - HeldObject
+  - Glass
+  - TimeAffected
+  - Grapple
+  - Origen
+  - L1
+  - NoRenderPart
+  - DontPassObjects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1399539137
+    locked: 0

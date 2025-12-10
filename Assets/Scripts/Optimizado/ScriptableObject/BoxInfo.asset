@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feef3636a71781f48979026f6079d436, type: 3}
+  m_Name: BoxInfo
+  m_EditorClassIdentifier: 
+  type: 3
+  prefab: {fileID: 4620678843979549244, guid: c511053129b687242b037361326144d7, type: 3}
+  hasPikeableSystem: 1
+  pikeableData:
+    grabDistance: 2.5
+    holdSpeed: 15
+    minSpeed: 2
+    angularSpeed: 15
+    grabTolerance: 0.02
+    maxGrabDistance: 4
+    positionThreshold: 0.1
+    minImpactVelocity: 1.5
+    minTimeBetweenSounds: 0.2
+  poolSize: 5

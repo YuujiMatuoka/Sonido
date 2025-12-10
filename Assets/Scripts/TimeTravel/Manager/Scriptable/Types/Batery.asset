@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87e709b3e503034383b9bb04a855ffc, type: 3}
+  m_Name: Batery
+  m_EditorClassIdentifier: 
+  sparkParticlePrefab: {fileID: 8256567934335640973, guid: 1ed36f1d03448f9469143e61a5cd2e4b, type: 3}
+  dustParticlePrefab: {fileID: 8256567934335640973, guid: 1ed36f1d03448f9469143e61a5cd2e4b, type: 3}
+  debrisParticlePrefab: {fileID: 8256567934335640973, guid: 1ed36f1d03448f9469143e61a5cd2e4b, type: 3}
+  sparkIntensityMultiplier: 1
+  dustIntensityMultiplier: 1
+  debrisIntensityMultiplier: 1
+  impactSounds:
+  - {fileID: 8300000, guid: cf6206dbd911f054d9d49a02305d6827, type: 3}
+  pitchVariation: 0.1
+  hardness: 1
+  brittleness: 0.5

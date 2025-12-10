@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3de1c5f0399a6042aeab70ef8e9d45c, type: 3}
+  m_Name: Prueba 5
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - dialogueText: Please don't throw objects in that direction!
+    displayDuration: 3.5
+    voiceClip: {fileID: 8300000, guid: 3cb07d78e1ae3794faee744ac24ed8f7, type: 3}
+  - dialogueText: Don't lose important items! I've got your back.
+    displayDuration: 3
+    voiceClip: {fileID: 8300000, guid: bed5e10cbe403934ca886fa2c699be0f, type: 3}
+  - dialogueText: 'Object rescue service, at your service! '
+    displayDuration: 3
+    voiceClip: {fileID: 8300000, guid: 2c43b5de3635afd48ba934aaaa4890fd, type: 3}
