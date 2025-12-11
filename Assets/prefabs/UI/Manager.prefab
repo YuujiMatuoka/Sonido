@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 8383162796010483954}
   - component: {fileID: 6946218422256806131}
   - component: {fileID: 4682272664838994487}
+  - component: {fileID: 8794219064275090519}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -301,3 +302,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Collider: {fileID: 0}
+--- !u!114 &8794219064275090519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172853520801557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c070f2887e146543a75524f3ffc946e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6d16792134fa42a4ea1c4f165554fd37, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
