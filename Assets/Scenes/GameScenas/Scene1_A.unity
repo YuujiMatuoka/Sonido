@@ -825,6 +825,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1035544798}
+    - targetCorrespondingSourceObject: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1035544800}
   m_SourcePrefab: {fileID: 100100000, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
 --- !u!1 &1035544797 stripped
 GameObject:
@@ -851,7 +854,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d6158c4321151c8469e2c4deee6e9b93, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: b3eed0fe43b3d2f4bb98934b750f3048, type: 2}
   useCallbacks: 0
   stopSoundOnDestroy: 1
   Callbacks: []
@@ -884,6 +887,33 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!54 &1035544800
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035544797}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1092390966
 PrefabInstance:
   m_ObjectHideFlags: 0
