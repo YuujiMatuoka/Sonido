@@ -178,6 +178,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1845892044}
   - component: {fileID: 1845892043}
+  - component: {fileID: 1845892046}
+  - component: {fileID: 1845892045}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -225,6 +227,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1845892045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845892042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c070f2887e146543a75524f3ffc946e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b50e26350a14daf4986efaac6f0eeb53, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &1845892046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845892042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30de47163b65c4a45ab3a787bb8827b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3618b2cb421f50e44b886e49aa763f2f, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &1962035963 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 985075584571647183, guid: de961c74ccaa8124c92db72adeeb77d3, type: 3}
@@ -246,9 +297,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c882138f0de9b0443b90a477dc7b221a, type: 2}
-  corridorTag: Corridor
-  isInCorridor: 0
-  showDebug: 1
 --- !u!1001 &402402134917811890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -650,7 +698,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 675854df4e6bcbf4c963c0fed5fabac6, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 3618b2cb421f50e44b886e49aa763f2f, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0

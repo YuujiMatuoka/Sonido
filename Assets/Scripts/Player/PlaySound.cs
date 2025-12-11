@@ -45,7 +45,7 @@ public class PlaySound : MonoBehaviour
     public void Footstep()
     {
         GroundSwitch();
-        footstepsEvent.Post(gameObject);
+        footstepsEvent.Post(AkSoundEngine.GetAkGameObjectID(this.gameObject));
     }
 
     public void GroundSwitch()
@@ -75,4 +75,14 @@ public class PlaySound : MonoBehaviour
             }
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+            AkSoundEngine.SetState("Room", "Corridor");
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+            AkSoundEngine.SetState("Room", "WaitRoom");
+    }
+
 }

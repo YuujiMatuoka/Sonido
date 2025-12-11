@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5889340c59661854090e9dd05711467f, type: 3}
+  m_Name: BAB5A8A8-C352-468A-A09D-ABA581387A85
+  m_EditorClassIdentifier: 
+  objectName: WaitRoom
+  id: 2462589023
+  guid: BAB5A8A8-C352-468A-A09D-ABA581387A85
+  WwiseStateGroupReference: {fileID: 11400000, guid: e65bf905d8db53f498183d019261867c, type: 2}
