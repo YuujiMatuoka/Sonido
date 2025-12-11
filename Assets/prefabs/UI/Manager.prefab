@@ -19,6 +19,9 @@ GameObject:
   - component: {fileID: 152645129443313291}
   - component: {fileID: 3247511572741663138}
   - component: {fileID: 5239755073471075575}
+  - component: {fileID: 8383162796010483954}
+  - component: {fileID: 6946218422256806131}
+  - component: {fileID: 4682272664838994487}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -55,6 +58,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaitTimeTravel: 0
   DelayTimeTravel: 3
+  musicStateOrigin:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1252af04fd3aa264abc7317d912dc8ef, type: 2}
+  musicStateL1:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 818adc65ca728d94abdc809a8477290a, type: 2}
+  timeTravelTransitionTime: 1
+  timeTravelSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fa47e0909b51dad469fa135407d2c0c5, type: 2}
 --- !u!114 &3180954391248365147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +91,7 @@ MonoBehaviour:
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 3168407
+  gameCursor: {fileID: 0}
   highlightMaterial: {fileID: 2100000, guid: 83b49ccfd235ac2498a892795f0136a5, type: 2}
   descriptionPanel: {fileID: 0}
   descriptionText: {fileID: 0}
@@ -91,6 +112,8 @@ MonoBehaviour:
   hands: {fileID: 0}
   isInspecting: 0
   Canvas_Animator: {fileID: 0}
+  gamepadCursorSpeed: 800
+  gamepadCursorDeadZone: 0.2
 --- !u!114 &7909339319849959556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,3 +230,74 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shockwaveShader: {fileID: 4800000, guid: d3d9891ae82d37047943b0d8d73a5b3f, type: 3}
+--- !u!114 &8383162796010483954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172853520801557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f757c256edb714ea4bb6bfab385edc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &6946218422256806131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172853520801557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82bc245e0a9f0c248ab2593db3e74ee4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fa47e0909b51dad469fa135407d2c0c5, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &4682272664838994487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172853520801557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2387bb7c649d2e54e9e6680ac5b9c325, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
