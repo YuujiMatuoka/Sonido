@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{88F2801E-52CD-4525-BB5D-9298F620173E}",
     "Language": "SFX",
-    "Hash": "{6610622C-3A58-39B6-E2FD-F1D63AB77D46}",
+    "Hash": "{36D5A899-50A4-9750-78DB-6E8275218D74}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -352,11 +352,6 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TimeTravel",
       "GUID": "{46F192F8-BADD-454D-B852-08FDA87B60C0}",
       "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "733929263"
-       }
-      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -478,6 +473,6 @@
     ]
    }
   ],
-  "FileHash": "{7F9A69A3-A898-138C-0B36-5F08C6F1A650}"
+  "FileHash": "{9D15211B-60B2-CA62-4A6E-062BFC0975B0}"
  }
 }
