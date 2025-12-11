@@ -25,6 +25,7 @@
 							</ModifierList>
 						</Property>
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-96</Value>
