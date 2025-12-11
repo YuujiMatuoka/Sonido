@@ -1,6 +1,7 @@
-using UnityEngine;
 using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.PostProcessing;
 using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
@@ -17,6 +18,8 @@ public class PlayerManager : MonoBehaviour
 
     [Header("Assistant Settings")]
     [SerializeField] private AssistantManager assistantManager;
+
+    public PlaySound footstep;
 
     [Header("Toggle")]
     [SerializeField] private Toggle toggle;
@@ -383,7 +386,12 @@ public class PlayerManager : MonoBehaviour
     }
 
     void OnDisable() => input.Player.Disable();
+    public void Footstep()
+    {
+        footstep.PlayFootstepSound();
+    }
 }
+
 
 public struct PlayerInputs
 {
