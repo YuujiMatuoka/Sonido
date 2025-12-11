@@ -39,7 +39,7 @@ public class Engine : MonoBehaviour
             {
                 currentValue = maxValue;
             }
-            Debug.Log(currentValue);
+            //Debug.Log(currentValue);
             if (weatherRTPC != null)
                     weatherRTPC.SetGlobalValue(currentValue);
             

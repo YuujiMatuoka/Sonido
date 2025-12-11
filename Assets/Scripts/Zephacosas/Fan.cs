@@ -27,6 +27,7 @@ void Start()
     {
         //FirstPersonController player = FindObjectOfType<FirstPersonController>();
         //playerTransform = player.transform;
+        
         currentValue = startValue;
         targetValue = startValue;
 
@@ -41,8 +42,8 @@ void Start()
         if (direction.magnitude < fanDistanceSound)
         {
             //currentValue = direction.magnitude * 10;
-            //Debug.Log(direction.magnitude);
-            currentValue = (10 - direction.magnitude) * 10;
+            Debug.Log(direction.magnitude);
+            currentValue = (5 - direction.magnitude) * 20;
         }
         else if (direction.magnitude >= fanDistanceSound)
         {

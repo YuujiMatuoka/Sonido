@@ -1021,7 +1021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
       propertyPath: m_Name
-      value: Caja de cajoncitos
+      value: Fan
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1029,13 +1029,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1035544799}
-    - targetCorrespondingSourceObject: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1035544798}
-    - targetCorrespondingSourceObject: {fileID: 7169488288211600837, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1035544800}
   m_SourcePrefab: {fileID: 100100000, guid: 605b32372f65d1748a009dab85c66bf8, type: 3}
 --- !u!1 &1035544797 stripped
 GameObject:
@@ -1051,77 +1045,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1035544797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03dabdf0eca34fa489f6c2f2caf1743d, type: 3}
+  m_Script: {fileID: 11500000, guid: e263c30d63029854581a84af8f9d0628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
+  player: {fileID: 1905379420156213986}
+  fanDistanceSound: 5
+  weatherRTPC:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b3eed0fe43b3d2f4bb98934b750f3048, type: 2}
-  useCallbacks: 0
-  stopSoundOnDestroy: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &1035544799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035544797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09f757c256edb714ea4bb6bfab385edc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!54 &1035544800
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035544797}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+    WwiseObjectReference: {fileID: 11400000, guid: 551603af681d82c4c8f0f159c709750c, type: 2}
+  startValue: 0
+  minValue: 0
+  maxValue: 100
 --- !u!1001 &1092390966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11810,6 +11745,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e984ba7a62ed5146bb5e2fa79ef77b3, type: 3}
+--- !u!4 &1905379420156213986 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1078686536333278, guid: 3e984ba7a62ed5146bb5e2fa79ef77b3, type: 3}
+  m_PrefabInstance: {fileID: 1905379420156213985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1911283022404633748
 PrefabInstance:
   m_ObjectHideFlags: 0
