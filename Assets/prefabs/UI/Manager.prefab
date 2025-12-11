@@ -55,6 +55,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WaitTimeTravel: 0
   DelayTimeTravel: 3
+  musicStateOrigin:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1252af04fd3aa264abc7317d912dc8ef, type: 2}
+  musicStateL1:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 818adc65ca728d94abdc809a8477290a, type: 2}
+  timeTravelRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  timeTravelTransitionTime: 1
+  timeTravelSoundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fa47e0909b51dad469fa135407d2c0c5, type: 2}
 --- !u!114 &3180954391248365147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +92,7 @@ MonoBehaviour:
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 3168407
+  gameCursor: {fileID: 0}
   highlightMaterial: {fileID: 2100000, guid: 83b49ccfd235ac2498a892795f0136a5, type: 2}
   descriptionPanel: {fileID: 0}
   descriptionText: {fileID: 0}
@@ -91,6 +113,8 @@ MonoBehaviour:
   hands: {fileID: 0}
   isInspecting: 0
   Canvas_Animator: {fileID: 0}
+  gamepadCursorSpeed: 800
+  gamepadCursorDeadZone: 0.2
 --- !u!114 &7909339319849959556
 MonoBehaviour:
   m_ObjectHideFlags: 0
