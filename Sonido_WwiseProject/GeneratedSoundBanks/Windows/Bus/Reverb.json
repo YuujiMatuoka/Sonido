@@ -1,0 +1,76 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "348963605",
+    "Type": "Bus",
+    "GUID": "{64F2CB42-BFDE-4975-B759-CB899183A181}",
+    "Language": "SFX",
+    "Hash": "{EC1F43CE-C0B9-6413-8CD3-73E808CD4902}",
+    "ObjectPath": "Reverb",
+    "ShortName": "Reverb",
+    "Path": "Bus/Reverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Wwise Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\CorridorEffect\\Reverb",
+      "GUID": "{64F2CB42-BFDE-4975-B759-CB899183A181}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2077253480",
+      "Name": "Room",
+      "ObjectPath": "\\States\\Default Work Unit\\Room",
+      "GUID": "{91EDCE73-1A8C-4F17-8E15-3563ACC4FC38}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Room\\None",
+        "GUID": "{64C0BCD1-7D13-43E8-8589-C0EA5828F45E}"
+       },
+       {
+        "Id": "2462589023",
+        "Name": "WaitRoom",
+        "ObjectPath": "\\States\\Default Work Unit\\Room\\WaitRoom",
+        "GUID": "{BAB5A8A8-C352-468A-A09D-ABA581387A85}"
+       },
+       {
+        "Id": "4063189299",
+        "Name": "Corridor",
+        "ObjectPath": "\\States\\Default Work Unit\\Room\\Corridor",
+        "GUID": "{C43CB200-DB42-4880-931C-9321578F7019}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{976C73A3-3FF8-B782-187D-F412F15DAC38}"
+ }
+}

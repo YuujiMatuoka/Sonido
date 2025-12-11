@@ -8,6 +8,8 @@ public class PlayerController
     private readonly Transform playerCamera;
     private readonly InteractionManager interactionManager;
 
+    private readonly PlaySound footstep;
+
     private bool isHoldingClick;
     private float stepTimer = 0f;
     private CoroutineRunner coroutineRunner;
@@ -19,14 +21,15 @@ public class PlayerController
         PlayerModel model,
         Rigidbody rb,
         Transform cameraTransform,
-        InteractionManager interactionManager
+        InteractionManager interactionManager,
+        PlaySound playSound
     )
     {
         this.model = model;
         this.rb = rb;
         this.playerCamera = cameraTransform;
         this.interactionManager = interactionManager;
-
+        this.footstep = playSound;
         model.defaultYPos = model.playerCamera.localPosition.y;
 
         // Crear GameObject para corrutinas
@@ -92,7 +95,10 @@ public class PlayerController
             model.grapplingGun.StartGrapple();
         }
     }
-
+    public void Footstep()
+    {
+        footstep.PlayFootstepSound();
+    }
     private void UpdateMovement(float moveX, float moveZ, bool wantToRun)
     {
         UpdateGroundCheck();
@@ -122,37 +128,43 @@ public class PlayerController
 
         HandleHeadBob(moveX, moveZ, wantToRun);
 
-        // Reproducir sonido de pasos si se está moviendo
-        if (model.isGrounded && moveDirection.magnitude > 0.1f)
-        {
-            stepTimer += Time.deltaTime;
-            if (stepTimer >= model.stepInterval)
-            {
-                PlayFootstep();
-                stepTimer = 0f;
-            }
-        }
-        else
-        {
-            stepTimer = model.stepInterval; // Reinicia para evitar que suene al instante al volver a caminar
-        }
+        //// Reproducir sonido de pasos si se está moviendo
+        //if (model.isGrounded && moveDirection.magnitude > 0.1f)
+        //{
+        //    stepTimer += Time.deltaTime;
+        //    if (stepTimer >= model.stepInterval)
+        //    {
+        //        Footstep();
+        //        stepTimer = 0f;
+        //    }
+        //}
+        //else
+        //{
+        //    stepTimer = model.stepInterval;
+        //}
 
-        if (model.isGrounded && moveDirection.magnitude > 0.1f && model.isRunning)
-        {
-            if (!model.runLoopSource.isPlaying)
-            {
-                int index = Random.Range(0, model.footstepClips.Count);
-                model.runLoopSource.clip = model.runFootstepClips[index];
-                model.runLoopSource.Play();
-            }
-        }
-        else
-        {
-            if (model.runLoopSource.isPlaying)
-            {
-                model.runLoopSource.Stop();
-            }
-        }
+        //// Añadir un chequeo adicional
+        //if (moveDirection.magnitude < 0.1f)
+        //{
+        //    stepTimer = model.stepInterval * 0.5f; // Reset parcial
+        //}
+
+        //if (model.isGrounded && moveDirection.magnitude > 0.1f && model.isRunning)
+        //{
+        //    if (!model.runLoopSource.isPlaying)
+        //    {
+        //        int index = Random.Range(0, model.footstepClips.Count);
+        //        model.runLoopSource.clip = model.runFootstepClips[index];
+        //        model.runLoopSource.Play();
+        //    }
+        //}
+        //else
+        //{
+        //    if (model.runLoopSource.isPlaying)
+        //    {
+        //        model.runLoopSource.Stop();
+        //    }
+        //}
     }
 
     private void HandleGrapplePull()

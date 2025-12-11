@@ -1,0 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2077253480	Room			\Default Work Unit\Room	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Room			
+	2462589023	WaitRoom	Room			
+	4063189299	Corridor	Room			
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\CorridorEffect\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+

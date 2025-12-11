@@ -21,9 +21,6 @@ State	ID	Name	State Group			Notes
 	1702304824	L1	Music_State			
 	2857991423	Origen	Music_State			
 
-Custom State	ID	Name	State Group	Owner		Notes
-	771922919	Corridor	Room	\Master-Mixer Hierarchy\Default Work Unit\CorridorEffect\Reverb		
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
@@ -54,5 +51,4 @@ Effect plug-ins	ID	Name	Type				Notes
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 

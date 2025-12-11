@@ -421,8 +421,8 @@ MonoBehaviour:
         guid: ee41f97978472a448b3c7d025caebc44
       Path: Events\Default Work Unit\FootStep
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Ambient
       guid: 94ab366f33f9424bb025e5bd6ef52337
       id: 1562304622
@@ -438,8 +438,8 @@ MonoBehaviour:
         guid: 94ab366f33f9424bb025e5bd6ef52337
       Path: Events\Default Work Unit\Play_Ambient
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Engine
       guid: d86beaa0b0728a4ebb7431a7f5e0edb6
       id: 639345804
@@ -455,8 +455,8 @@ MonoBehaviour:
         guid: d86beaa0b0728a4ebb7431a7f5e0edb6
       Path: Events\Default Work Unit\Play_Engine
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Play_TimeTravel
       guid: f892f146ddba4d45b85208fda87b60c0
       id: 2398522065
@@ -472,8 +472,8 @@ MonoBehaviour:
         guid: f892f146ddba4d45b85208fda87b60c0
       Path: Events\Default Work Unit\Play_TimeTravel
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1080,7 +1080,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584361975887897830
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 02000000030000000400000011000000120000001f00000020000000
   ExpandedWaapiItemIds: 020000000400000011000000120000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 0

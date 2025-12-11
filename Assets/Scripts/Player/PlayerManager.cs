@@ -82,7 +82,7 @@ public class PlayerManager : MonoBehaviour
             model
         );
 
-        controller = new PlayerController(model, rb, model.playerCamera, interactionManager);
+        controller = new PlayerController(model, rb, model.playerCamera, interactionManager,footstep);
         visual = new PlayerVisualController(model, animator, model.playerCamera.GetComponent<Camera>());
 
         if (toggle != null)
@@ -386,10 +386,7 @@ public class PlayerManager : MonoBehaviour
     }
 
     void OnDisable() => input.Player.Disable();
-    public void Footstep()
-    {
-        footstep.PlayFootstepSound();
-    }
+    
 }
 
 

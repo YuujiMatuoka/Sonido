@@ -1,0 +1,483 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{88F2801E-52CD-4525-BB5D-9298F620173E}",
+    "Language": "SFX",
+    "Hash": "{6610622C-3A58-39B6-E2FD-F1D63AB77D46}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "16167439",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootSteps_Robot\\FootSteps_Robot_1-16bit.wav",
+      "CachePath": "48/{48F507E4-BA6F-F786-719E-701E985275D4}.wem"
+     },
+     {
+      "Id": "99311362",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Stairs\\FootStep_Robot_Stairs (4).wav",
+      "CachePath": "F8/{F83D57A6-0067-4188-DE7A-9EE6BB1727B2}.wem"
+     },
+     {
+      "Id": "100340915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Metal\\FootStep_Robot_Metal (1).wav",
+      "CachePath": "AC/{AC610551-74D3-03F1-8DC7-01238B435B32}.wem"
+     },
+     {
+      "Id": "171937269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pesado.wav",
+      "CachePath": "25/{25A5A1A7-1FFB-193E-C579-66384CAEB5C5}.wem"
+     },
+     {
+      "Id": "177187555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Drums.wav",
+      "CachePath": "F9/{F93AFFD0-FFAA-E012-E75B-E2F8A5FF503E}.wem"
+     },
+     {
+      "Id": "273318906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SpaceShip_Ambient.wav",
+      "CachePath": "63/{6348F0CC-5F6C-9F64-AC45-F9CD9E15E1C2}.wem"
+     },
+     {
+      "Id": "285937926",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootSteps_Robot\\FootSteps_Robot_4-16bit.wav",
+      "CachePath": "43/{43760749-9268-82F4-A4E6-C3428E7A969E}.wem"
+     },
+     {
+      "Id": "292366816",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Melody.wav",
+      "CachePath": "BE/{BE439A1C-3981-9E05-D3C6-79F33936CB93}.wem"
+     },
+     {
+      "Id": "304515337",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Stairs\\FootStep_Robot_Stairs (3).wav",
+      "CachePath": "C9/{C9D8C7AE-9ECA-6DD1-3500-53EADFD85547}.wem"
+     },
+     {
+      "Id": "348857675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "looperman-l-0911223-0101489-silencekills-slow-volcano-pad-80-a.wav",
+      "CachePath": "37/{37CBACB6-BBDE-D4A0-BA98-73EAEE727A72}.wem"
+     },
+     {
+      "Id": "356402377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Metal\\FootStep_Robot_Metal (2).wav",
+      "CachePath": "BF/{BF4213E6-5F28-EB47-2FC2-A2C8BC007A0D}.wem"
+     },
+     {
+      "Id": "415893338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalCrunch.wav",
+      "CachePath": "DD/{DD2DD7DE-D746-3B6F-2B17-17F40F588419}.wem"
+     },
+     {
+      "Id": "428396697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootSteps_Robot\\FootSteps_Robot_2-16bit.wav",
+      "CachePath": "26/{26A093DB-12B3-795C-CA3C-CE0A72B26587}.wem"
+     },
+     {
+      "Id": "461448503",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Inicio.wav",
+      "CachePath": "E6/{E6B60E84-2021-D39B-D8FC-415F860B348B}.wem"
+     },
+     {
+      "Id": "467704966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootSteps_Robot\\FootSteps_Robot_3-16bit.wav",
+      "CachePath": "75/{7502250A-30F0-B6CF-2D58-8788E53E72C4}.wem"
+     },
+     {
+      "Id": "543921958",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fan.wav",
+      "CachePath": "F0/{F0DDCE94-84BB-A9FD-91B2-37DEE0952394}.wem"
+     },
+     {
+      "Id": "596497210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalCrunch.wav",
+      "CachePath": "04/{04BEABA5-517F-9363-6AD2-7E53F5C594EF}.wem"
+     },
+     {
+      "Id": "713128896",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "looperman-l-2909146-0268447-joji-x-test-drive-piano-chords-e-80bpm.wav",
+      "CachePath": "14/{14C5E78D-A595-FF09-05A0-9F6DC52B2208}.wem"
+     },
+     {
+      "Id": "733929263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "looperman-l-2234076-0126307-prodivn-teenage.wav",
+      "CachePath": "E0/{E0B43381-BAE5-5EB7-DB39-B5AFB72C1C90}.wem"
+     },
+     {
+      "Id": "798199537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Base2.wav",
+      "CachePath": "9F/{9FA37925-12BC-945D-DA91-3198D6FBD4EC}.wem"
+     },
+     {
+      "Id": "829583836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MetalCrunch.wav",
+      "CachePath": "36/{36C30C59-14E2-0E90-CD6F-0FD739BB0913}.wem"
+     },
+     {
+      "Id": "929044248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Stairs\\FootStep_Robot_Stairs (2).wav",
+      "CachePath": "17/{17421944-0FF6-2193-40C7-6741127D0CFE}.wem"
+     },
+     {
+      "Id": "988228241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Metal\\FootStep_Robot_Metal (3).wav",
+      "CachePath": "E8/{E8AC5E59-E5DD-837B-6AAA-FFB0530B294B}.wem"
+     },
+     {
+      "Id": "1026849881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Metal\\FootStep_Robot_Metal (4).wav",
+      "CachePath": "F2/{F27E7F92-27FF-05FC-F37A-F09F2ADE013E}.wem"
+     },
+     {
+      "Id": "1067557425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FootStep_Robot_Stairs\\FootStep_Robot_Stairs (1).wav",
+      "CachePath": "F2/{F2753B9F-E59E-35F3-E026-541DC5005094}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1866025847",
+      "Name": "FootStep",
+      "ObjectPath": "\\Events\\Default Work Unit\\FootStep",
+      "GUID": "{79F941EE-4778-442A-8B3C-7D025CAEBC44}",
+      "DurationType": "Infinite",
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\CorridorEffect\\Reverb",
+        "GUID": "{64F2CB42-BFDE-4975-B759-CB899183A181}"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3072116243",
+         "Id": "2213076644",
+         "GUID": "{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}",
+         "Color": "4"
+        },
+        "MediaRefs": [
+         {
+          "Id": "16167439"
+         },
+         {
+          "Id": "285937926"
+         },
+         {
+          "Id": "428396697"
+         },
+         {
+          "Id": "467704966"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3072116243",
+         "Id": "2473969246",
+         "GUID": "{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}",
+         "Color": "4",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "100340915"
+         },
+         {
+          "Id": "356402377"
+         },
+         {
+          "Id": "988228241"
+         },
+         {
+          "Id": "1026849881"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3072116243",
+         "Id": "1289942167",
+         "GUID": "{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}",
+         "Color": "4"
+        },
+        "MediaRefs": [
+         {
+          "Id": "99311362"
+         },
+         {
+          "Id": "304515337"
+         },
+         {
+          "Id": "929044248"
+         },
+         {
+          "Id": "1067557425"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1562304622",
+      "Name": "Play_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambient",
+      "GUID": "{6F36AB94-F933-4B42-B025-E5BD6EF52337}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "273318906"
+       },
+       {
+        "Id": "415893338"
+       },
+       {
+        "Id": "543921958"
+       },
+       {
+        "Id": "596497210"
+       },
+       {
+        "Id": "829583836"
+       }
+      ]
+     },
+     {
+      "Id": "639345804",
+      "Name": "Play_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine",
+      "GUID": "{A0EA6BD8-72B0-4E8A-BB74-31A7F5E0EDB6}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "171937269"
+       },
+       {
+        "Id": "461448503"
+       },
+       {
+        "Id": "798199537"
+       }
+      ]
+     },
+     {
+      "Id": "2398522065",
+      "Name": "Play_TimeTravel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TimeTravel",
+      "GUID": "{46F192F8-BADD-454D-B852-08FDA87B60C0}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "733929263"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "1702304824",
+         "GUID": "{709EFD18-42DA-4329-A325-315D2ADD00C1}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "348857675"
+         },
+         {
+          "Id": "713128896"
+         },
+         {
+          "Id": "733929263"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3826569560",
+         "Id": "2857991423",
+         "GUID": "{1844E7BB-F2BB-4477-855E-F137E07A3B10}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "177187555"
+         },
+         {
+          "Id": "292366816"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1181339778",
+      "Name": "EngineIntencity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\EngineIntencity",
+      "GUID": "{DA70F56D-34EB-431F-8E6E-D8741376A883}"
+     },
+     {
+      "Id": "1223843609",
+      "Name": "FanDistance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\FanDistance",
+      "GUID": "{CF9605A7-2192-4CE6-8EA6-8957C8C3197F}"
+     },
+     {
+      "Id": "2653406601",
+      "Name": "RTPC_PlayerSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerSpeed",
+      "GUID": "{6D7AB1A7-BEF6-4959-ABFC-C283BA42F351}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3826569560",
+      "Name": "Music_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Music_State",
+      "GUID": "{90A4C465-8742-4F24-9973-CE3C54854207}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\None",
+        "GUID": "{E8A788DF-0ACE-4653-BC9F-780DD4A276A4}"
+       },
+       {
+        "Id": "1702304824",
+        "Name": "L1",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\L1",
+        "GUID": "{709EFD18-42DA-4329-A325-315D2ADD00C1}"
+       },
+       {
+        "Id": "2857991423",
+        "Name": "Origen",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Origen",
+        "GUID": "{1844E7BB-F2BB-4477-855E-F137E07A3B10}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3072116243",
+      "Name": "GroundMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial",
+      "GUID": "{0F4BE55D-6A6A-4DF3-BBC2-2C97C57F9006}",
+      "Color": "4",
+      "Switches": [
+       {
+        "Id": "1289942167",
+        "Name": "Stairs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Stairs",
+        "GUID": "{A85797CA-E12A-4FA9-A1A4-E5DF98DB394A}",
+        "Color": "4"
+       },
+       {
+        "Id": "2213076644",
+        "Name": "NoneMaterial",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\NoneMaterial",
+        "GUID": "{0A250659-F9D7-4516-AFB7-C4BFA5A0B07D}",
+        "Color": "4"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\GroundMaterial\\Metal",
+        "GUID": "{E9562C9B-5BBA-43D4-8B0E-CE8446C96F59}",
+        "Color": "4"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A2886FDF-F9CE-DAB8-57F9-EF894EC2AA27}"
+ }
+}
