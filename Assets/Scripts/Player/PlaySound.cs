@@ -1,21 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlaySound : MonoBehaviour
 {
+    [Header("Footstep Event")]
     [SerializeField]
     private AK.Wwise.Event footstepsEvent;
 
-    public void Footstep()  
+    private bool isInCorridor = false;
+
+    private void Start()
     {
-        GroundSwitch();
-        footstepsEvent.Post(gameObject);
+        // Estado inicial por defecto
+        AkSoundEngine.SetState("Room", "WaitRoom");
     }
 
+    // Detecta entrada a Corridor
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Corridor"))
+        {
+            isInCorridor = true;
+            AkSoundEngine.SetState("Room", "Corridor");
+            Debug.Log("Room → Corridor");
+        }
+    }
+
+    // Detecta salida de Corridor
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Corridor"))
+        {
+            isInCorridor = false;
+            AkSoundEngine.SetState("Room", "WaitRoom");
+            Debug.Log("Room → WaitRoom");
+        }
+    }
+
+    // Footsteps
     public void PlayFootstepSound()
     {
         Footstep();
+    }
+
+    public void Footstep()
+    {
+        GroundSwitch();
+        footstepsEvent.Post(gameObject);
     }
 
     public void GroundSwitch()
@@ -29,7 +59,7 @@ public class PlaySound : MonoBehaviour
             int hitLayer = hitObject.layer;
             string layerName = LayerMask.LayerToName(hitLayer);
 
-            Debug.Log($"Hit object: {hitObject.name}, Layer: {layerName} ({hitLayer})");
+            Debug.Log($"Hit: {hitObject.name}, Layer: {layerName}");
 
             if (layerName == "Default")
             {

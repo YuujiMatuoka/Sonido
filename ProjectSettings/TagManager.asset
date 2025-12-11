@@ -12,6 +12,7 @@ TagManager:
   - mapTileOrigen
   - TimeAffected
   - Object
+  - Corridor
   layers:
   - Default
   - TransparentFX

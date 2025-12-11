@@ -246,6 +246,9 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c882138f0de9b0443b90a477dc7b221a, type: 2}
+  corridorTag: Corridor
+  isInCorridor: 0
+  showDebug: 1
 --- !u!1001 &402402134917811890
 PrefabInstance:
   m_ObjectHideFlags: 0
