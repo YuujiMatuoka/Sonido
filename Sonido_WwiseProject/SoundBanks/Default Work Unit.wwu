@@ -13,6 +13,16 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Main_SoundBank" ID="{5D35AA3B-2F6C-4930-97B1-F1F596885B88}">
+					<ObjectInclusionList>
+						<ObjectRef Name="FootStep" ID="{79F941EE-4778-442A-8B3C-7D025CAEBC44}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TimeTravel" ID="{46F192F8-BADD-454D-B852-08FDA87B60C0}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambient" ID="{6F36AB94-F933-4B42-B025-E5BD6EF52337}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Engine" ID="{A0EA6BD8-72B0-4E8A-BB74-31A7F5E0EDB6}" WorkUnitID="{3D653320-3DB9-4EC4-8423-0A1BF1A6792C}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

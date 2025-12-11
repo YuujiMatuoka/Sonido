@@ -19,8 +19,15 @@
     "LibName": "No Output",
     "LibId": "11862023",
     "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Motion",
+    "LibId": "33226759",
+    "Type": "AudioDevice",
+    "DLL": "AkMotion",
+    "StaticLib": "AkMotionSink"
    }
   ],
-  "FileHash": "{DB72216A-A588-6D16-11D7-E0544479EA85}"
+  "FileHash": "{F6D83D76-6D5D-B447-CCFE-FFC8A6A50B9A}"
  }
 }

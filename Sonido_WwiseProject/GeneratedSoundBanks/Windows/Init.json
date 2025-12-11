@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B5B67D29-AC5F-F3C2-EDE9-6F79F311FAAE}",
+    "Hash": "{0377EFBC-2BE4-5C4D-D56D-DD2BA652F166}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,6 +41,14 @@
        "GUID": "{2B3F42DF-D7BC-45D4-95BC-64B7E9CF6B61}",
        "LibName": "System",
        "LibId": "11403271"
+      },
+      {
+       "Id": "4230635974",
+       "Name": "Default_Motion_Device",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\Default_Motion_Device",
+       "GUID": "{4830B8A8-CCA9-4B5E-B7A9-24A97B74B28C}",
+       "LibName": "Motion",
+       "LibId": "33226759"
       }
      ]
     },
@@ -785,6 +793,6 @@
     ]
    }
   ],
-  "FileHash": "{C6C7DE11-DC4E-D42B-A831-921E1A09CF1E}"
+  "FileHash": "{32942024-20E0-BCF2-40CA-ACF654F75E68}"
  }
 }

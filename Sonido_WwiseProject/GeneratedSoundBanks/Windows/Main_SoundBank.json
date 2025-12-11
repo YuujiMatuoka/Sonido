@@ -8,7 +8,7 @@
    {
     "Id": "2228651116",
     "Type": "User",
-    "GUID": "{E1FDF7FF-C324-4E83-96E3-F02CF82BDE06}",
+    "GUID": "{5D35AA3B-2F6C-4930-97B1-F1F596885B88}",
     "Language": "SFX",
     "Hash": "{AD630CE5-CA7E-EB3F-C3D7-DDA6FF6B4EBB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_SoundBank",
@@ -473,6 +473,6 @@
     ]
    }
   ],
-  "FileHash": "{CA97FF1D-919F-67E8-7E52-21E3249234DF}"
+  "FileHash": "{182BE70B-F79A-509B-A063-EC1341C703EB}"
  }
 }
